@@ -1,0 +1,191 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#FFF; color:#535353; font:12px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:10px/12px Tahoma, sans-serif; color:#315ab4; text-decoration:none;}
+p a:hover{ color:#000; text-decoration:underline;}
+
+.headline{font:12px/12px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#315ab4;}
+
+#container{width:775px; position:relative; margin:0 auto;}
+
+/* HEADER */
+
+#header{width:775px; height:306px; position:relative; background:url(images/b_header.jpg) 0 0 no-repeat}
+#header img#logo{position:absolute; top:0; left:223px}
+#header img#slogan{position:absolute; top:143px; left:435px}
+
+#header ul.menu{position:absolute; top:71px; left:31px; width:740px}
+#header ul.menu li{height:30px; margin-right:10px; float:left}
+#header ul.menu li a{height:30px; display:block; text-indent:-20000px; }
+#header ul.menu li a:hover{height:30px;}
+
+#header ul.menu li.line{width:22px; background:url(images/spacer_m.gif) 0 0 no-repeat}
+
+
+/* HEADER 2*/
+
+#header2{width:775px; height:106px; position:relative; background:url(images/b_header2.jpg) 0 0 no-repeat}
+#header2 img#logo{position:absolute; top:0; left:223px}
+#header2 img#slogan{position:absolute; top:143px; left:435px}
+
+#header2 ul.menu{position:absolute; top:71px; left:31px; width:740px}
+#header2 ul.menu li{height:30px; margin-right:10px; float:left}
+#header2 ul.menu li a{height:30px; display:block; text-indent:-20000px; }
+#header2 ul.menu li a:hover{height:30px;}
+
+
+
+
+#header2 ul.menu li.line{width:22px; background:url(images/spacer_m.gif) 0 0 no-repeat}
+
+
+
+/* BOTONES */
+
+.button{text-decoration:none; text-align:center; 
+ padding:0px 0px; 
+ border:none; 
+  
+ font:19px "Times New Roman", Times, serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background:#000000; 
+ -webkit-box-shadow:0px 0px 2px #000000, inset 0px 0px 1px #0f0000; 
+ -moz-box-shadow: 0px 0px 2px #000000,  inset 0px 0px 1px #0f0000;  
+ box-shadow:0px 0px 2px #000000, inset 0px 0px 1px #0f0000;  
+  
+  }.button:hover{
+ padding:0px 0px; 
+ border:none; 
+  
+ font:19px "Times New Roman", Times, serif; 
+ font-weight:bold; 
+ color:#c38238; 
+ background:#000000; 
+ -webkit-box-shadow:0px 0px 2px #000000, inset 0px 0px 1px #0f0000; 
+ -moz-box-shadow: 0px 0px 2px #000000,  inset 0px 0px 1px #0f0000;  
+ box-shadow:0px 0px 2px #000000, inset 0px 0px 1px #0f0000;  
+  
+ text-shadow: 0px 0px 1px #8f5f29; 
+ filter: dropshadow(color=#8f5f29, offx=0, offy=0);}
+ .button:active{
+ padding:0px 0px; 
+ border:none; 
+  
+ font:19px "Times New Roman", Times, serif; 
+ font-weight:bold; 
+ color:#c38238; 
+ background:#000000; 
+ -webkit-box-shadow:0px 0px 2px #000000, inset 0px 0px 1px #0f0000; 
+ -moz-box-shadow: 0px 0px 2px #000000,  inset 0px 0px 1px #0f0000;  
+ box-shadow:0px 0px 2px #000000, inset 0px 0px 1px #0f0000;  
+  
+ text-shadow: 0px 0px 1px #8f5f29; 
+ filter: dropshadow(color=#8f5f29, offx=0, offy=0);}
+ 
+
+
+/* CONTENT */
+
+#content{width:714px; position:relative; clear:both; padding-top:14px; margin-left:31px}
+
+#leftPan{width:219px; float:left; margin:0 28px 0 0; display:inline; background:#f7f7f5}
+#rightPan{width:467px; float:left;}
+
+#content ul li{font:11px Tahoma, sans-serif; background:url(images/arrow1.gif) 0 5px no-repeat; padding-left:11px; height:18px;}
+#content ul li a{color:#000; text-decoration:underline;}
+#content ul li a:hover{color:#000; text-decoration:none;}
+
+#room{width:179px; margin:15px 0 20px 20px}
+#room h2{height:19px; position:relative; background:url(images/h_has.gif) 0 0 no-repeat; margin-bottom:16px}
+#room img{margin-bottom:17px}
+#room p{margin-left:3px; margin-bottom:15px}
+#room ul{margin-left:10px}
+
+#welcome {margin-bottom:20px}
+#welcome p{float:left; margin-left:9px; margin-right:30px; width:450px}
+#welcome ul{float:left}
+
+#services {float:left; width:220px; margin-right:34px; margin-left:5px; display:inline}
+#services h2{height:19px; position:relative; background:url(images/h_services.gif) 0 0 no-repeat; margin-bottom:17px}
+.servItem{margin-bottom:7px}
+.servItem img{float:left; margin-right:7px;}
+.servItem p{width:165px; float:left}
+
+#activities {float:left; width:196px;}
+#activities h2{height:19px; position:relative; background:url(images/h_activities.gif) 0 0 no-repeat; margin-bottom:12px}
+#activities img{margin-bottom:12px}
+
+.clear#end{height:20px}
+
+/* TEXT & IMAGES */
+
+/* tell the container's children to float left: */
+.float-my-children > * {
+    float:left;
+    margin-right:5px;
+}
+
+/* this is called a clearfix. it makes sure that the container's children floats are cleared, without using extra markup */
+
+.clearfix {
+    *zoom:1 /* for IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* end clearfix*/
+
+.go-top {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  padding: 1em;
+}
+.go-top:hover {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  text-decoration: none;
+  color: orange;
+  background-color: black;
+  font-size: 12px;
+  padding: 1em;
+}
+
+ 
+
+
+
+
+
+/* FOOTER */
+
+#footer{height:48px; clear:both; width:775px; border-top:#e8eaf1 4px solid}
+#footer p{padding: 10px 0 0 0; font:10px/14px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#3b3b21;}
+#footer p a{font:14px Tahoma, sans-serif; font-weight:normal; color:#3b3b21; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#3b3b21}
+
+#footer ul  {
+height: 60px;
+background-color: #333;
+color: #fff;
+text-align: center;
+clear: both;
+}
