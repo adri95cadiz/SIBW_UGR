@@ -1,0 +1,14 @@
+
+
+/*funcion que calcula la diferencia entre dias y los guarda en $dias*/
+function diff_dte($date1, $date2){
+       if (!is_integer($date1)) $date1 = strtotime($date1);
+       if (!is_integer($date2)) $date2 = strtotime($date2);  
+       return floor(abs($date1 - $date2) / 60 / 60 / 24);
+} 
+$f1= $_SESSION['fecha-ini'] ;
+$f2= $_SESSION['fecha-fin'];
+
+$dias = diff_dte($f1,$f2) +1;
+
+

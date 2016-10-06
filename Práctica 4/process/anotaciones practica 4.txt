@@ -1,0 +1,21 @@
+- en la base de datos no guardar las imagenes como si, guardar la ruta de internet de la imagen y acceder a ella
+
+2 tipos de usuario
+- usuario que ser registra en el hotel
+- usuario administrador/propietario del hotel (datos de la entrevista)
+	- dar de alta/baja habitaciones
+	- poner o quitar promociones
+- añadir sistema de reserva
+
+- hacer uso de los requiistos vistos en la entrevista con el cliente
+--> entrega ultima semana de mayo - 2 de junio
+
+IMPORTANTE : pracitca más importante ponderación de 40%
+
+
+HABITCIONES
+5 simples 
+25 dobles dos camas/camas matrimonio
+2 hab cama doble/cama individual y sofa cama
+
+no hay habitaciones triples como tal, son habitaciones dobles que se le añade una cama supleoria

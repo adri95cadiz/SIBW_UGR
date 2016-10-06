@@ -1,0 +1,1 @@
+SELECT * FROM tipoHabitacion WHERE idTipoHabitacion='1'

@@ -1,0 +1,34 @@
+Información adicional acerca de los elementos para valorar la práctica 4
+
+
+1 -
+
+modelo entidad relacion no es necesario
+diagrama de clases necesario poner bien las multiplicidades (de manera explicita)
+3 - menu dinamico
+
+uno de los dos menus (barra horizontal o vertical) deberia salir de la base de datos (recomendable el horizontal) asi 
+leyendo la BD se ha de confeccionar dicho menu
+
+4- 
+que todos los content esten metidos en la base de datos (codigo completo metido como si fuese un registro de la base de datos)
+
+5-
+cuando se marque una habitacion (a la hora de reservar) el precio de la reserva se actualiza, y si añades servicios se 
+actualice tambien el precio con todo lo que el cliente lleva reservado hasta ese momento
+
+9- 
+para acceder a la base de datos se realice uno sola consulta para pedir todos los datos necesarios
+a la hora de cargar la página (ejemplo para la seccion habitaciones habria que hacer consulta para las imagenes de habitaciones y 
+tambien para precios, pues en vez de abrir varias consultas hacerlo en una sola)
+
+10-
+la factura ha de contener los datos del hotel (nombre,direccion,NIF, ... ) dichos datos deben de estar almacenados en la 
+base de datos
+
+11-
+registro de usuarios (nombre y clave), distinción de dos tipos de usuarios, usuario normal , con funcionalidades normal,
+y un usuario con permisos de administración  que tendrá funcionalidad de editar determinadas secciones de texto
+
+ 
+
